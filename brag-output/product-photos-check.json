@@ -1,0 +1,232 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 4,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 3.5,
+        "selector": "#hook",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 80,
+          "top": 407.38,
+          "right": 707.27,
+          "bottom": 664,
+          "width": 627.27,
+          "height": 256.62
+        },
+        "containerSelector": "#s2 > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "text": "Cada pedido cuenta.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-s1tl"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 80,
+          "y": 407.38,
+          "width": 627.27,
+          "height": 256.62
+        },
+        "firstSeen": 3.5,
+        "lastSeen": 3.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          3.5
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 9,
+        "selector": "#s2 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 80,
+          "top": 301.52,
+          "right": 315.88,
+          "bottom": 327.52,
+          "width": 235.88,
+          "height": 26
+        },
+        "containerSelector": "#s3 > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "text": "01 / EL PEDIDO",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-omw3"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 80,
+          "y": 301.52,
+          "width": 235.88,
+          "height": 26
+        },
+        "firstSeen": 9,
+        "lastSeen": 9,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          9
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 9,
+        "selector": "#coffee > div:nth-of-type(2) > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 312.48,
+          "top": 1182.98,
+          "right": 366.55,
+          "bottom": 1211.98,
+          "width": 54.07,
+          "height": 29
+        },
+        "containerSelector": "#s3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4)",
+        "text": "Café",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-aj4t"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 312.48,
+          "y": 1182.98,
+          "width": 54.07,
+          "height": 29
+        },
+        "firstSeen": 9,
+        "lastSeen": 9,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          9
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 17.75,
+        "selector": "#s4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 345.05,
+          "top": 796.45,
+          "right": 381.75,
+          "bottom": 817.45,
+          "width": 36.7,
+          "height": 21
+        },
+        "containerSelector": "h2.bigbrand",
+        "text": "9:41",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-hf-id": "hf-sr5c"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 345.05,
+          "y": 796.45,
+          "width": 36.7,
+          "height": 21
+        },
+        "firstSeen": 17.75,
+        "lastSeen": 17.75,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          17.75
+        ]
+      }
+    ],
+    "duration": 20,
+    "samples": [
+      1.111,
+      3.333,
+      5.556,
+      7.778,
+      10,
+      12.222,
+      14.444,
+      16.667,
+      18.889
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 4,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "checked": 70,
+    "passed": 70
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "5f226f8c-7ec0-401f-9f43-bfeea2b84dc8",
+    "revision": "97cff5a1-61f1-4672-bd76-2f006ac86639",
+    "report": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/checks/5f226f8c-7ec0-401f-9f43-bfeea2b84dc8.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.181",
+    "latestVersion": "0.8.181",
+    "updateAvailable": false
+  }
+}

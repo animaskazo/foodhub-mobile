@@ -1,0 +1,1361 @@
+{
+  "version": 1,
+  "historyId": "24024195-21f5-4e2a-a87a-7b88659dabb9",
+  "currentRevision": "97cff5a1-61f1-4672-bd76-2f006ac86639",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "DESIGN.md": {
+      "hash": "46bddc00b551299abcdb2e5f59a862b9dcab91144605f5665264b05941c9603f",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/46/46bddc00b551299abcdb2e5f59a862b9dcab91144605f5665264b05941c9603f"
+    },
+    "assets/sfx/bell.ogg": {
+      "hash": "5572ccdeb3b62373b86fa955355b3a222c36e815f0636ba16165189a21cf2514",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/55/5572ccdeb3b62373b86fa955355b3a222c36e815f0636ba16165189a21cf2514"
+    },
+    "assets/sfx/click.ogg": {
+      "hash": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/cc/ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9"
+    },
+    "assets/sfx/reveal.ogg": {
+      "hash": "7642a4fd43e547afe4f7adfadb3dabb681c0ff512f52c1674bae30a726841faf",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/76/7642a4fd43e547afe4f7adfadb3dabb681c0ff512f52c1674bae30a726841faf"
+    },
+    "compositions/components/headline-slam.html": {
+      "hash": "4d607a8ec7ed3b30a14a2176e0c721b27abe7f7783f93f3f547d4ed0a983e6b7",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/4d/4d607a8ec7ed3b30a14a2176e0c721b27abe7f7783f93f3f547d4ed0a983e6b7"
+    },
+    "hyperframes.json": {
+      "hash": "69ecdca6bb6cbd51ca8ee81a838ac2e675b6444ee8271b12c885a5516a8f85c0",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/69/69ecdca6bb6cbd51ca8ee81a838ac2e675b6444ee8271b12c885a5516a8f85c0"
+    },
+    "hyperframes.lock.json": {
+      "hash": "5040a143c0f9e8f5c9c187efaebc3549d4403dc16bbd8952ecf100b6dddf5403",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/50/5040a143c0f9e8f5c9c187efaebc3549d4403dc16bbd8952ecf100b6dddf5403"
+    },
+    "index.html": {
+      "hash": "2c5c2d09acbf719e5142d059c0d47be85ad5ab5beff98718cfbf07e6150020e4",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/2c/2c5c2d09acbf719e5142d059c0d47be85ad5ab5beff98718cfbf07e6150020e4"
+    },
+    "meta.json": {
+      "hash": "7e7757223099218790037a1a1a5632be1e3257bbdc431021c6ae09652ff102af",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/7e/7e7757223099218790037a1a1a5632be1e3257bbdc431021c6ae09652ff102af"
+    },
+    "package.json": {
+      "hash": "2be1fac5eda99a017d6c3def947bc5c501e8c0b1c4d25881d79144142a9ef689",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/2b/2be1fac5eda99a017d6c3def947bc5c501e8c0b1c4d25881d79144142a9ef689"
+    },
+    "assets/music/music.mp3": {
+      "hash": "5888d4bd2ba0119b87a94e502ae2cc401c08192945cc5e5c2f8e8a33aa47a0a1",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/58/5888d4bd2ba0119b87a94e502ae2cc401c08192945cc5e5c2f8e8a33aa47a0a1"
+    },
+    "assets/music/audio-data.json": {
+      "hash": "eec22030676a18d89b06eb83998fffcbb44a146b9255a46505f03075f71b51bb",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/ee/eec22030676a18d89b06eb83998fffcbb44a146b9255a46505f03075f71b51bb"
+    },
+    "assets/icons/banknote.svg": {
+      "hash": "95383b7ce239785267201299a88d4894bf3f09919599ceef0885438b30964a5b",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/95/95383b7ce239785267201299a88d4894bf3f09919599ceef0885438b30964a5b"
+    },
+    "assets/icons/credit-card.svg": {
+      "hash": "fe54b751420fc25facaac0a1d52c6c0f1d5f450f4ed4e3e69354a9edf7c4c998",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/fe/fe54b751420fc25facaac0a1d52c6c0f1d5f450f4ed4e3e69354a9edf7c4c998"
+    },
+    "assets/icons/landmark.svg": {
+      "hash": "50d863ad2a68ca385074b3ee7d4c211f0fa21aaf16f86e1c5a2f77f5bfc10723",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/50/50d863ad2a68ca385074b3ee7d4c211f0fa21aaf16f86e1c5a2f77f5bfc10723"
+    },
+    "assets/icons/search.svg": {
+      "hash": "909856fd0848a6c21e7d2614a6972dc35e5a1b165f52c90adebd62ecdd2f562c",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/90/909856fd0848a6c21e7d2614a6972dc35e5a1b165f52c90adebd62ecdd2f562c"
+    },
+    "assets/icons/arrow-left.svg": {
+      "hash": "f0041b561bdf2992318e1046d2c2723dd04f0792c417b72a5b9d0ec44bce1a56",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/f0/f0041b561bdf2992318e1046d2c2723dd04f0792c417b72a5b9d0ec44bce1a56"
+    },
+    "assets/icons/layout-dashboard.svg": {
+      "hash": "5791d81f13d92f27504510c30db5e6d11442b70ddf1b313fc724fa02496daf1d",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/57/5791d81f13d92f27504510c30db5e6d11442b70ddf1b313fc724fa02496daf1d"
+    },
+    "assets/icons/receipt-text.svg": {
+      "hash": "22dfea62559d79aeaed1ea335aceb875226138e523ec5a54520b3db934e2abed",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/22/22dfea62559d79aeaed1ea335aceb875226138e523ec5a54520b3db934e2abed"
+    },
+    "assets/icons/shopping-cart.svg": {
+      "hash": "ebeb8c9a96d3e065bb5ccf26516134abbff82933b0892547ce2989ae66792db3",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/eb/ebeb8c9a96d3e065bb5ccf26516134abbff82933b0892547ce2989ae66792db3"
+    },
+    "assets/icons/user.svg": {
+      "hash": "13309232b20bbcdacf5fe24345758570375d46097e49dc28515a020b0a2022bc",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/13/13309232b20bbcdacf5fe24345758570375d46097e49dc28515a020b0a2022bc"
+    },
+    "assets/icons/plus.svg": {
+      "hash": "3bb07211f0ddd58187b4f7704454c2a20564af4c7aef68d9179a53e543605267",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/3b/3bb07211f0ddd58187b4f7704454c2a20564af4c7aef68d9179a53e543605267"
+    },
+    "assets/icons/check.svg": {
+      "hash": "73dbe6ce493d438fc5f8b74a5e05ccca893c9a70e483d2fa7a643099d339f6ae",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/73/73dbe6ce493d438fc5f8b74a5e05ccca893c9a70e483d2fa7a643099d339f6ae"
+    },
+    "assets/icons/battery.svg": {
+      "hash": "389a8a0bd49bc8d1609c27b630b6707a94f0351da4cb559e1d63b1b797a1e57a",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/38/389a8a0bd49bc8d1609c27b630b6707a94f0351da4cb559e1d63b1b797a1e57a"
+    },
+    "assets/icons/wifi.svg": {
+      "hash": "6eab94ca83e8c8ad15274311d8172489a49e297e559f3f25fc1e450c3d56def6",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/6e/6eab94ca83e8c8ad15274311d8172489a49e297e559f3f25fc1e450c3d56def6"
+    },
+    "assets/icons/signal.svg": {
+      "hash": "50822dbe92c4a7de9d990385aafe41753216c63489be2c2f49ac26b91d7446fa",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/50/50822dbe92c4a7de9d990385aafe41753216c63489be2c2f49ac26b91d7446fa"
+    },
+    "assets/images/coffee.png": {
+      "hash": "0863b021aeee1b8b404b1ca1403f35e0d95ed60de594863b0777b0f0b66007e1",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/08/0863b021aeee1b8b404b1ca1403f35e0d95ed60de594863b0777b0f0b66007e1"
+    },
+    "assets/images/sandwich.png": {
+      "hash": "6d86590d76324972a0b62c884f601495a7113c724db2a241f824193eb548f578",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/6d/6d86590d76324972a0b62c884f601495a7113c724db2a241f824193eb548f578"
+    },
+    "assets/images/coffee.jpg": {
+      "hash": "6fc805d11785cf289a25d99886997042407c126f20ae8afc380f9008a90e4556",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/6f/6fc805d11785cf289a25d99886997042407c126f20ae8afc380f9008a90e4556"
+    },
+    "assets/images/sandwich.jpg": {
+      "hash": "2d5518526d36c42486c6df9c5b28113c89eca9bd34fc975f41e2eb69e01e21dd",
+      "content": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/2d/2d5518526d36c42486c6df9c5b28113c89eca9bd34fc975f41e2eb69e01e21dd"
+    }
+  },
+  "revisions": {
+    "3bbb2f47-bf3f-475c-844c-339c1dc97671": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792531485514,
+      "endedAt": 1792531485514,
+      "files": {
+        "assets/music/audio-data.json": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/ee/eec22030676a18d89b06eb83998fffcbb44a146b9255a46505f03075f71b51bb"
+        }
+      }
+    },
+    "7423de93-d241-4745-80f9-8d21bb70130f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792531554504,
+      "endedAt": 1792531554506,
+      "files": {
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/eb/eb5d0d3c57789d87d3f031f252235a334fb56ee485a96e3bd85b3d660d3f2a9d",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/f0/f04583987eb46104add662a4f1270beb7a7c6b268bee5ef47f7ae399eac4f6b3"
+        }
+      }
+    },
+    "e9ad9f4e-6520-4b07-9eec-8a802653c8d5": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792531583690,
+      "endedAt": 1792531583698,
+      "files": {
+        "compositions/components/headline-slam.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/b1/b16ac28b01bf7f352d6a3f267838253de85794cd9bedd8065b48d7675e9295cd",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/4d/4d607a8ec7ed3b30a14a2176e0c721b27abe7f7783f93f3f547d4ed0a983e6b7"
+        },
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/f0/f04583987eb46104add662a4f1270beb7a7c6b268bee5ef47f7ae399eac4f6b3",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/74/744b4b03533e13de8df2f6f90e393b6069b9b3cdd35f15bb2417c7bdbe798cd1"
+        }
+      }
+    },
+    "01629dbd-7f15-4505-adc0-1eabb21f096b": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Adapt FoodHub to vertical Reel and repair icons",
+      "startedAt": 1792531802502,
+      "endedAt": 1792532444105,
+      "files": {
+        "assets/icons/arrow-left.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/f0/f0041b561bdf2992318e1046d2c2723dd04f0792c417b72a5b9d0ec44bce1a56"
+        },
+        "assets/icons/banknote.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/95/95383b7ce239785267201299a88d4894bf3f09919599ceef0885438b30964a5b"
+        },
+        "assets/icons/battery.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/38/389a8a0bd49bc8d1609c27b630b6707a94f0351da4cb559e1d63b1b797a1e57a"
+        },
+        "assets/icons/check.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/73/73dbe6ce493d438fc5f8b74a5e05ccca893c9a70e483d2fa7a643099d339f6ae"
+        },
+        "assets/icons/credit-card.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/fe/fe54b751420fc25facaac0a1d52c6c0f1d5f450f4ed4e3e69354a9edf7c4c998"
+        },
+        "assets/icons/landmark.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/50/50d863ad2a68ca385074b3ee7d4c211f0fa21aaf16f86e1c5a2f77f5bfc10723"
+        },
+        "assets/icons/layout-dashboard.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/57/5791d81f13d92f27504510c30db5e6d11442b70ddf1b313fc724fa02496daf1d"
+        },
+        "assets/icons/plus.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/3b/3bb07211f0ddd58187b4f7704454c2a20564af4c7aef68d9179a53e543605267"
+        },
+        "assets/icons/receipt-text.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/22/22dfea62559d79aeaed1ea335aceb875226138e523ec5a54520b3db934e2abed"
+        },
+        "assets/icons/search.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/90/909856fd0848a6c21e7d2614a6972dc35e5a1b165f52c90adebd62ecdd2f562c"
+        },
+        "assets/icons/shopping-cart.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/eb/ebeb8c9a96d3e065bb5ccf26516134abbff82933b0892547ce2989ae66792db3"
+        },
+        "assets/icons/signal.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/50/50822dbe92c4a7de9d990385aafe41753216c63489be2c2f49ac26b91d7446fa"
+        },
+        "assets/icons/user.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/13/13309232b20bbcdacf5fe24345758570375d46097e49dc28515a020b0a2022bc"
+        },
+        "assets/icons/wifi.svg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/6e/6eab94ca83e8c8ad15274311d8172489a49e297e559f3f25fc1e450c3d56def6"
+        },
+        "DESIGN.md": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/b7/b72c6260e9a685b52d73a690791e32adf8260db3004b152d2675000d5e468a29",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/08/085ecaea959047dd87c600c30e7bebe42a5138322bba4a0cf152b3c254a8f6d7"
+        },
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/74/744b4b03533e13de8df2f6f90e393b6069b9b3cdd35f15bb2417c7bdbe798cd1",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/7f/7f2c27cacbc9650b2c330ae00c1ebde4b85a722db3968c9b13d5c8b0473fce9d"
+        }
+      }
+    },
+    "34b1ee52-3e16-4793-aa6a-4f24312d6c53": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Delete element",
+      "startedAt": 1792532539498,
+      "endedAt": 1792532539498,
+      "files": {
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/7f/7f2c27cacbc9650b2c330ae00c1ebde4b85a722db3968c9b13d5c8b0473fce9d",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/a5/a5ef91cc3233233a5ba65e322f79fe1386fbfb40facc1383b1d555d45b1ae47e"
+        }
+      }
+    },
+    "35d09278-3835-4135-9a0c-dca40b775869": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Hide 2 elements",
+      "startedAt": 1792532543901,
+      "endedAt": 1792532543901,
+      "files": {
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/a5/a5ef91cc3233233a5ba65e322f79fe1386fbfb40facc1383b1d555d45b1ae47e",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/8e/8eb733317e7619c2c52902270bae7ef29501d70df8456ef6917898d222704cf1"
+        }
+      }
+    },
+    "0819a43a-b6d9-4d9e-962e-e18fe9b07760": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Undid: Hide 2 elements",
+      "startedAt": 1792532568469,
+      "endedAt": 1792532568471,
+      "undoes": "35d09278-3835-4135-9a0c-dca40b775869",
+      "files": {
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/8e/8eb733317e7619c2c52902270bae7ef29501d70df8456ef6917898d222704cf1",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/a5/a5ef91cc3233233a5ba65e322f79fe1386fbfb40facc1383b1d555d45b1ae47e"
+        }
+      }
+    },
+    "e4d744ba-fb1d-448b-a473-4f53243c0a45": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Undid: Delete element",
+      "startedAt": 1792532569095,
+      "endedAt": 1792532569118.097,
+      "undoes": "34b1ee52-3e16-4793-aa6a-4f24312d6c53",
+      "files": {
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/a5/a5ef91cc3233233a5ba65e322f79fe1386fbfb40facc1383b1d555d45b1ae47e",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/7f/7f2c27cacbc9650b2c330ae00c1ebde4b85a722db3968c9b13d5c8b0473fce9d"
+        }
+      }
+    },
+    "eca625cf-25a9-4615-b6e8-65ef3fe8718a": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Hide element",
+      "startedAt": 1792532578054,
+      "endedAt": 1792532578055,
+      "files": {
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/7f/7f2c27cacbc9650b2c330ae00c1ebde4b85a722db3968c9b13d5c8b0473fce9d",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/4b/4b9c81f76b54f3de3e1e36b9df8474bc0b0edd0bd8b8327e444bcd2f9adee8fc"
+        }
+      }
+    },
+    "7375fb67-6353-452a-b071-64dd5eb67c00": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Show element",
+      "startedAt": 1792532579504,
+      "endedAt": 1792532579504,
+      "files": {
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/4b/4b9c81f76b54f3de3e1e36b9df8474bc0b0edd0bd8b8327e444bcd2f9adee8fc",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/7f/7f2c27cacbc9650b2c330ae00c1ebde4b85a722db3968c9b13d5c8b0473fce9d"
+        }
+      }
+    },
+    "ad4bb956-ae1c-44e3-acee-e57d0f36dc02": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Hide track 31",
+      "startedAt": 1792533646931,
+      "endedAt": 1792533646931,
+      "files": {
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/7f/7f2c27cacbc9650b2c330ae00c1ebde4b85a722db3968c9b13d5c8b0473fce9d",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/b0/b06c2ef5843f21880ba979bf4a6a83d9f238994374e25d5cc26d16fa6962abed"
+        }
+      }
+    },
+    "27f871f8-5f76-4075-9990-5ca924a7be8e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792533659310,
+      "endedAt": 1792533661332,
+      "files": {
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/b0/b06c2ef5843f21880ba979bf4a6a83d9f238994374e25d5cc26d16fa6962abed",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/32/326922e38e446c377ab971ca1058a59f4379aaae7e8c33a76649fc24cd918c33"
+        }
+      }
+    },
+    "6dca68bc-2d3b-4240-b960-746e68e62edf": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Remove demo labels and add product photographs",
+      "startedAt": 1792533663786,
+      "endedAt": 1792533747253,
+      "files": {
+        "assets/images/coffee.png": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/08/0863b021aeee1b8b404b1ca1403f35e0d95ed60de594863b0777b0f0b66007e1"
+        },
+        "assets/images/sandwich.png": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/6d/6d86590d76324972a0b62c884f601495a7113c724db2a241f824193eb548f578"
+        },
+        "DESIGN.md": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/08/085ecaea959047dd87c600c30e7bebe42a5138322bba4a0cf152b3c254a8f6d7",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/46/46bddc00b551299abcdb2e5f59a862b9dcab91144605f5665264b05941c9603f"
+        },
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/32/326922e38e446c377ab971ca1058a59f4379aaae7e8c33a76649fc24cd918c33",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/46/46cf0ac5ff06ee836408322086fdc49cc7993b1a69c184d319d23c23c9e177c1"
+        }
+      }
+    },
+    "97cff5a1-61f1-4672-bd76-2f006ac86639": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Remove demo labels and add product photographs",
+      "startedAt": 1792533663786,
+      "endedAt": 1792533894107,
+      "files": {
+        "assets/images/coffee.jpg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/6f/6fc805d11785cf289a25d99886997042407c126f20ae8afc380f9008a90e4556"
+        },
+        "assets/images/sandwich.jpg": {
+          "before": null,
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/2d/2d5518526d36c42486c6df9c5b28113c89eca9bd34fc975f41e2eb69e01e21dd"
+        },
+        "index.html": {
+          "before": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/46/46cf0ac5ff06ee836408322086fdc49cc7993b1a69c184d319d23c23c9e177c1",
+          "after": "/Users/fer/.cache/hyperframes/history/24024195-21f5-4e2a-a87a-7b88659dabb9/blobs/2c/2c5c2d09acbf719e5142d059c0d47be85ad5ab5beff98718cfbf07e6150020e4"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "97cff5a1-61f1-4672-bd76-2f006ac86639",
+      "id": "5f226f8c-7ec0-401f-9f43-bfeea2b84dc8"
+    },
+    "revisions": {
+      "3bbb2f47-bf3f-475c-844c-339c1dc97671": [
+        {
+          "id": "a03bb573-4690-463b-905b-1a1da39100ac",
+          "scope": "project",
+          "report": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/checks/a03bb573-4690-463b-905b-1a1da39100ac.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": true,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792531489532,
+          "contentHash": "60badbfac590c1fac5e7277456ddd5eccf97bdf8ce8424a0dac9a368e4d96635",
+          "revision": "3bbb2f47-bf3f-475c-844c-339c1dc97671",
+          "inputFingerprint": "49262d722ac0e08c970d9c01720012777deda286e9c28026f05382794b291599",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "7423de93-d241-4745-80f9-8d21bb70130f": [
+        {
+          "id": "dad618ac-ab44-41db-87aa-12e50c77043c",
+          "scope": "project",
+          "report": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/checks/dad618ac-ab44-41db-87aa-12e50c77043c.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": true,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792531559383,
+          "contentHash": "ab471b582b59ce75455bbb49608ead03c2a6c7050302ccc9f1493590029de777",
+          "revision": "7423de93-d241-4745-80f9-8d21bb70130f",
+          "inputFingerprint": "804df80f05b7a038132997594099fa6fd1fc97716f7c5ab3759cd50de32ad302",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "01629dbd-7f15-4505-adc0-1eabb21f096b": [
+        {
+          "id": "c6d509dc-e393-421b-b676-9aa3d9e2b10f",
+          "scope": "project",
+          "report": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/checks/c6d509dc-e393-421b-b676-9aa3d9e2b10f.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": true,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792532458431,
+          "contentHash": "b8dd9b4106b055fb3a59583f8996433bd749ca4b5cdc88b577db29f4dede2052",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "6dca68bc-2d3b-4240-b960-746e68e62edf": [
+        {
+          "id": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85",
+          "scope": "project",
+          "report": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/checks/91fe0a8f-2a56-4f5d-8d6c-97c00277fc85.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": true,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792533755604,
+          "contentHash": "b96c3249a601be2bafb946286ddaccc4d39cfa90355970ccb9dd7bc9429d935d",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "97cff5a1-61f1-4672-bd76-2f006ac86639": [
+        {
+          "id": "5f226f8c-7ec0-401f-9f43-bfeea2b84dc8",
+          "scope": "project",
+          "report": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/checks/5f226f8c-7ec0-401f-9f43-bfeea2b84dc8.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792533900584,
+          "contentHash": "f5bf84ccd62c17aed2929459f5666dc3f3e51283017c3efabcbce5bc2777e4bc",
+          "revision": "97cff5a1-61f1-4672-bd76-2f006ac86639",
+          "inputFingerprint": "00fd455f43f62ae34b598981ee536d300fb58e2fc41aa04a1f5d57f5619a8d3a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "03866215-3c91-40fb-8bad-724e5d6967f2",
+        "scope": "project",
+        "report": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/checks/03866215-3c91-40fb-8bad-724e5d6967f2.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": true,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792531410630,
+        "contentHash": "6df4e4b171064cebe67ade08d6df926cb2c71fdbb8240bd667d1dff41932201f",
+        "revision": null,
+        "inputFingerprint": "0601836d98f24297cbb580692cb6640613fbc552ea7a9788d3f5320b9a5fbb9a",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+      "id": "10878e2b-cca3-4d52-bb5f-9a7bb815c4ac-3"
+    },
+    "revisions": {
+      "3bbb2f47-bf3f-475c-844c-339c1dc97671": [
+        {
+          "id": "a03bb573-4690-463b-905b-1a1da39100ac-0",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-00-at-1.1s.png",
+          "time": 1.111,
+          "metadata": {
+            "checkId": "a03bb573-4690-463b-905b-1a1da39100ac",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531489533,
+          "contentHash": "3320396da47443621a8404edef8fe9ecec6ce42a56f70f4a712b8ab8dffaa8b3",
+          "revision": "3bbb2f47-bf3f-475c-844c-339c1dc97671",
+          "inputFingerprint": "49262d722ac0e08c970d9c01720012777deda286e9c28026f05382794b291599",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "a03bb573-4690-463b-905b-1a1da39100ac-1",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-01-at-5.6s.png",
+          "time": 5.556,
+          "metadata": {
+            "checkId": "a03bb573-4690-463b-905b-1a1da39100ac",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531489533,
+          "contentHash": "5f5f6d53f93e609197c79a5664aa7a48ec43f0c5359191cf2af6f0828e69e136",
+          "revision": "3bbb2f47-bf3f-475c-844c-339c1dc97671",
+          "inputFingerprint": "49262d722ac0e08c970d9c01720012777deda286e9c28026f05382794b291599",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "a03bb573-4690-463b-905b-1a1da39100ac-2",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-02-at-10.0s.png",
+          "time": 10,
+          "metadata": {
+            "checkId": "a03bb573-4690-463b-905b-1a1da39100ac",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531489533,
+          "contentHash": "1673861f4180167a252f81242f0320dbefe9c5c9eee2271e0bc7e76bde6caec3",
+          "revision": "3bbb2f47-bf3f-475c-844c-339c1dc97671",
+          "inputFingerprint": "49262d722ac0e08c970d9c01720012777deda286e9c28026f05382794b291599",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "a03bb573-4690-463b-905b-1a1da39100ac-3",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-03-at-14.4s.png",
+          "time": 14.444,
+          "metadata": {
+            "checkId": "a03bb573-4690-463b-905b-1a1da39100ac",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531489533,
+          "contentHash": "26f258776161c9e412035a0f96f5681ce39d739c23eac443b3ca93bb2b4185d4",
+          "revision": "3bbb2f47-bf3f-475c-844c-339c1dc97671",
+          "inputFingerprint": "49262d722ac0e08c970d9c01720012777deda286e9c28026f05382794b291599",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "a03bb573-4690-463b-905b-1a1da39100ac-4",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-04-at-18.9s.png",
+          "time": 18.889,
+          "metadata": {
+            "checkId": "a03bb573-4690-463b-905b-1a1da39100ac",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531489533,
+          "contentHash": "ae5599e7980a89259b2185def201f1b48c3a8e18909151ae608125aefa579b5b",
+          "revision": "3bbb2f47-bf3f-475c-844c-339c1dc97671",
+          "inputFingerprint": "49262d722ac0e08c970d9c01720012777deda286e9c28026f05382794b291599",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "7423de93-d241-4745-80f9-8d21bb70130f": [
+        {
+          "id": "dad618ac-ab44-41db-87aa-12e50c77043c-0",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-00-at-1.1s.png",
+          "time": 1.111,
+          "metadata": {
+            "checkId": "dad618ac-ab44-41db-87aa-12e50c77043c",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531559383,
+          "contentHash": "a09da2913fa374585dfa2491d4cb74bc0701aad67824a42c6504a456153ca246",
+          "revision": "7423de93-d241-4745-80f9-8d21bb70130f",
+          "inputFingerprint": "804df80f05b7a038132997594099fa6fd1fc97716f7c5ab3759cd50de32ad302",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "dad618ac-ab44-41db-87aa-12e50c77043c-1",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-01-at-5.6s.png",
+          "time": 5.556,
+          "metadata": {
+            "checkId": "dad618ac-ab44-41db-87aa-12e50c77043c",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531559383,
+          "contentHash": "de911235b98ba4df4ce40630073098fbea8fdd984e20a8e41abea9fac5d74e78",
+          "revision": "7423de93-d241-4745-80f9-8d21bb70130f",
+          "inputFingerprint": "804df80f05b7a038132997594099fa6fd1fc97716f7c5ab3759cd50de32ad302",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "dad618ac-ab44-41db-87aa-12e50c77043c-2",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-02-at-10.0s.png",
+          "time": 10,
+          "metadata": {
+            "checkId": "dad618ac-ab44-41db-87aa-12e50c77043c",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531559383,
+          "contentHash": "c6c861c7ac688204492f0d20760a36ddbf226ff3140e425b1a7901ed5f35b947",
+          "revision": "7423de93-d241-4745-80f9-8d21bb70130f",
+          "inputFingerprint": "804df80f05b7a038132997594099fa6fd1fc97716f7c5ab3759cd50de32ad302",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "dad618ac-ab44-41db-87aa-12e50c77043c-3",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-03-at-14.4s.png",
+          "time": 14.444,
+          "metadata": {
+            "checkId": "dad618ac-ab44-41db-87aa-12e50c77043c",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531559383,
+          "contentHash": "7578bf4a1a434f8a2a0c3c573351f9522dc6c1b2e9d6d4826ef2cb9fbde93996",
+          "revision": "7423de93-d241-4745-80f9-8d21bb70130f",
+          "inputFingerprint": "804df80f05b7a038132997594099fa6fd1fc97716f7c5ab3759cd50de32ad302",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "dad618ac-ab44-41db-87aa-12e50c77043c-4",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-04-at-18.9s.png",
+          "time": 18.889,
+          "metadata": {
+            "checkId": "dad618ac-ab44-41db-87aa-12e50c77043c",
+            "width": 1920,
+            "height": 1080
+          },
+          "createdAt": 1792531559383,
+          "contentHash": "543cab018a0da1cbe61924a7f20d947daa3d1c33d58a82408cfa1882568d8486",
+          "revision": "7423de93-d241-4745-80f9-8d21bb70130f",
+          "inputFingerprint": "804df80f05b7a038132997594099fa6fd1fc97716f7c5ab3759cd50de32ad302",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "e9ad9f4e-6520-4b07-9eec-8a802653c8d5": [
+        {
+          "scope": "full",
+          "id": "ff37d1ea-340b-4488-a0de-4bb06501e902-0",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/review-frames/frame-00-at-7.5s.png",
+          "time": 7.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792531599018,
+          "contentHash": "50a039f47f7ac3cd1c3f209a07b9a93a1055b7b0155643cf4e345a1e53ce19e6",
+          "revision": "e9ad9f4e-6520-4b07-9eec-8a802653c8d5",
+          "inputFingerprint": "890cbaa73c71dcb4ccba5be382e3c7468fc46cb5074633d4c8d007bbd6844051",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ff37d1ea-340b-4488-a0de-4bb06501e902-1",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/review-frames/frame-01-at-11.5s.png",
+          "time": 11.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792531599018,
+          "contentHash": "240115afcb5bda143c212749c1acc3941567a2f678ce93a7930cb748ec848875",
+          "revision": "e9ad9f4e-6520-4b07-9eec-8a802653c8d5",
+          "inputFingerprint": "890cbaa73c71dcb4ccba5be382e3c7468fc46cb5074633d4c8d007bbd6844051",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ff37d1ea-340b-4488-a0de-4bb06501e902-2",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/review-frames/frame-02-at-15.8s.png",
+          "time": 15.8,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792531599018,
+          "contentHash": "44e095f836881ac61837acd2070137e43b3e581f3ef816d9cf5c65764e3ae478",
+          "revision": "e9ad9f4e-6520-4b07-9eec-8a802653c8d5",
+          "inputFingerprint": "890cbaa73c71dcb4ccba5be382e3c7468fc46cb5074633d4c8d007bbd6844051",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ff37d1ea-340b-4488-a0de-4bb06501e902-3",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/review-frames/frame-03-at-19s.png",
+          "time": 19,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792531599018,
+          "contentHash": "d3410388d6a2a77b6a5f083fa3cebc6b2c5d38e6fa31d060986f159e9ef9ad5b",
+          "revision": "e9ad9f4e-6520-4b07-9eec-8a802653c8d5",
+          "inputFingerprint": "890cbaa73c71dcb4ccba5be382e3c7468fc46cb5074633d4c8d007bbd6844051",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "ff37d1ea-340b-4488-a0de-4bb06501e902-4",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/review-frames/frame-04-at-19.4s.png",
+          "time": 19.4,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792531599018,
+          "contentHash": "d3410388d6a2a77b6a5f083fa3cebc6b2c5d38e6fa31d060986f159e9ef9ad5b",
+          "revision": "e9ad9f4e-6520-4b07-9eec-8a802653c8d5",
+          "inputFingerprint": "890cbaa73c71dcb4ccba5be382e3c7468fc46cb5074633d4c8d007bbd6844051",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "01629dbd-7f15-4505-adc0-1eabb21f096b": [
+        {
+          "scope": "full",
+          "id": "53ef9df6-6959-4585-9289-d09233974bef-0",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/reel-review/frame-00-at-1.8s.png",
+          "time": 1.8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792532454260,
+          "contentHash": "7dbfc7edd6eeb7577b78885930ba386f68f4373845f761fa6445d0dcea6e30c2",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "53ef9df6-6959-4585-9289-d09233974bef-1",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/reel-review/frame-01-at-7.5s.png",
+          "time": 7.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792532454260,
+          "contentHash": "b481a3a2a09e716047ff59f8aaa327caddd5336e11876e346eb84f7d80ad6ff6",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "53ef9df6-6959-4585-9289-d09233974bef-2",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/reel-review/frame-02-at-11.5s.png",
+          "time": 11.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792532454260,
+          "contentHash": "fa1582fd0a135984f16852e7f9e9f133c99039963b758298f218be0ba180f049",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "53ef9df6-6959-4585-9289-d09233974bef-3",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/reel-review/frame-03-at-15.8s.png",
+          "time": 15.8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792532454260,
+          "contentHash": "9139310c6ecaf09e8e462473351d5c5f5a79c5c163941f114c673490dd2543b3",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "53ef9df6-6959-4585-9289-d09233974bef-4",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/reel-review/frame-04-at-19s.png",
+          "time": 19,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792532454261,
+          "contentHash": "8be5364e1673fe8de872ffd0f17b6415373024f92b7e6b08cd93828c708ed0c4",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "53ef9df6-6959-4585-9289-d09233974bef-5",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/reel-review/frame-05-at-19.4s.png",
+          "time": 19.4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792532454261,
+          "contentHash": "8be5364e1673fe8de872ffd0f17b6415373024f92b7e6b08cd93828c708ed0c4",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "c6d509dc-e393-421b-b676-9aa3d9e2b10f-0",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/99260893-a781-470b-8324-17c2b7e951fe/frame-00-at-1.1s.png",
+          "time": 1.111,
+          "metadata": {
+            "checkId": "c6d509dc-e393-421b-b676-9aa3d9e2b10f",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792532458431,
+          "contentHash": "2161a946975b81ca88fe1a9a252ce1e133b2b248505c4b319291220c50d31830",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "c6d509dc-e393-421b-b676-9aa3d9e2b10f-1",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/99260893-a781-470b-8324-17c2b7e951fe/frame-01-at-5.6s.png",
+          "time": 5.556,
+          "metadata": {
+            "checkId": "c6d509dc-e393-421b-b676-9aa3d9e2b10f",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792532458431,
+          "contentHash": "644ed88d13730a3e2d7352dc76d72d21c3db035b43ca2a2f32f58373788d204a",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "c6d509dc-e393-421b-b676-9aa3d9e2b10f-2",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/99260893-a781-470b-8324-17c2b7e951fe/frame-02-at-10.0s.png",
+          "time": 10,
+          "metadata": {
+            "checkId": "c6d509dc-e393-421b-b676-9aa3d9e2b10f",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792532458432,
+          "contentHash": "f95e552449cc367353bb83853f1ec101f925fc4363d813353f1adc0dd127468a",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "c6d509dc-e393-421b-b676-9aa3d9e2b10f-3",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/99260893-a781-470b-8324-17c2b7e951fe/frame-03-at-14.4s.png",
+          "time": 14.444,
+          "metadata": {
+            "checkId": "c6d509dc-e393-421b-b676-9aa3d9e2b10f",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792532458432,
+          "contentHash": "72c952c4cf4689c9fc33fe543339b9dd6ef34404f1befcb6a4c55ee161359cf0",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "c6d509dc-e393-421b-b676-9aa3d9e2b10f-4",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/99260893-a781-470b-8324-17c2b7e951fe/frame-04-at-18.9s.png",
+          "time": 18.889,
+          "metadata": {
+            "checkId": "c6d509dc-e393-421b-b676-9aa3d9e2b10f",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792532458432,
+          "contentHash": "8be5364e1673fe8de872ffd0f17b6415373024f92b7e6b08cd93828c708ed0c4",
+          "revision": "01629dbd-7f15-4505-adc0-1eabb21f096b",
+          "inputFingerprint": "7537706270f18c661145ca7afb8b05ed03f74e114876bfc64c7d315a23fb6546",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "6dca68bc-2d3b-4240-b960-746e68e62edf": [
+        {
+          "id": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85-0",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/e641275b-bfce-482a-8d8a-e7ab5f3ccb09/frame-00-at-1.1s.png",
+          "time": 1.111,
+          "metadata": {
+            "checkId": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792533755604,
+          "contentHash": "2161a946975b81ca88fe1a9a252ce1e133b2b248505c4b319291220c50d31830",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85-1",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/e641275b-bfce-482a-8d8a-e7ab5f3ccb09/frame-01-at-5.6s.png",
+          "time": 5.556,
+          "metadata": {
+            "checkId": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792533755604,
+          "contentHash": "619813a2ea7b7ea54e8196e402322fa9eb494e1e3e9108860e2781cd47799411",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85-2",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/e641275b-bfce-482a-8d8a-e7ab5f3ccb09/frame-02-at-10.0s.png",
+          "time": 10,
+          "metadata": {
+            "checkId": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792533755604,
+          "contentHash": "e5606c606b20c46bc271c2c017c753a923c28bdb7bd69a780fdd037bd2d86549",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85-3",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/e641275b-bfce-482a-8d8a-e7ab5f3ccb09/frame-03-at-14.4s.png",
+          "time": 14.444,
+          "metadata": {
+            "checkId": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792533755604,
+          "contentHash": "ceea646ac5e75d3e762862bc7ba185b8a18a405c753da1f64cd3fea70f8a5b92",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85-4",
+          "scope": "full",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/e641275b-bfce-482a-8d8a-e7ab5f3ccb09/frame-04-at-18.9s.png",
+          "time": 18.889,
+          "metadata": {
+            "checkId": "91fe0a8f-2a56-4f5d-8d6c-97c00277fc85",
+            "width": 1080,
+            "height": 1920
+          },
+          "createdAt": 1792533755605,
+          "contentHash": "8be5364e1673fe8de872ffd0f17b6415373024f92b7e6b08cd93828c708ed0c4",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "10878e2b-cca3-4d52-bb5f-9a7bb815c4ac-0",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/product-photos-review/frame-00-at-7.5s.png",
+          "time": 7.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792533761198,
+          "contentHash": "bccb59cfe9ebbbc4ad13cf5bf5fc5bdcf1159c0f51b2f04dff50fd5a75577eec",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "10878e2b-cca3-4d52-bb5f-9a7bb815c4ac-1",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/product-photos-review/frame-01-at-11.5s.png",
+          "time": 11.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792533761199,
+          "contentHash": "71904f792263bf29b1971ce0e1573a9c6242ee665fda5c95b0f6372cf0beaf54",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "10878e2b-cca3-4d52-bb5f-9a7bb815c4ac-2",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/product-photos-review/frame-02-at-15.8s.png",
+          "time": 15.8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792533761199,
+          "contentHash": "45b8e691278d0df3325a503e46eb55ce00f018c2ada32ccbc69bd29e345ff1b7",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "10878e2b-cca3-4d52-bb5f-9a7bb815c4ac-3",
+          "image": "/Users/fer/Documents/foodhub-mobile/brag-output/product-photos-review/frame-03-at-19.4s.png",
+          "time": 19.4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792533761199,
+          "contentHash": "0475ebf248d5ff797c127315cac8325dbf959fadd1ad42e2161c63942703aa42",
+          "revision": "6dca68bc-2d3b-4240-b960-746e68e62edf",
+          "inputFingerprint": "59e45a3ff6d510c282579608725b7ad6bc4920a3ac27f9bc5b9a213505c088ea",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "03866215-3c91-40fb-8bad-724e5d6967f2-0",
+        "scope": "full",
+        "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/47940fb2-d489-44c9-a64b-b1f8afc3b2f2/frame-00-at-1.1s.png",
+        "time": 1.111,
+        "metadata": {
+          "checkId": "03866215-3c91-40fb-8bad-724e5d6967f2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792531410630,
+        "contentHash": "3320396da47443621a8404edef8fe9ecec6ce42a56f70f4a712b8ab8dffaa8b3",
+        "revision": null,
+        "inputFingerprint": "0601836d98f24297cbb580692cb6640613fbc552ea7a9788d3f5320b9a5fbb9a",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "03866215-3c91-40fb-8bad-724e5d6967f2-1",
+        "scope": "full",
+        "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/47940fb2-d489-44c9-a64b-b1f8afc3b2f2/frame-01-at-5.6s.png",
+        "time": 5.556,
+        "metadata": {
+          "checkId": "03866215-3c91-40fb-8bad-724e5d6967f2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792531410630,
+        "contentHash": "5f5f6d53f93e609197c79a5664aa7a48ec43f0c5359191cf2af6f0828e69e136",
+        "revision": null,
+        "inputFingerprint": "0601836d98f24297cbb580692cb6640613fbc552ea7a9788d3f5320b9a5fbb9a",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "03866215-3c91-40fb-8bad-724e5d6967f2-2",
+        "scope": "full",
+        "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/47940fb2-d489-44c9-a64b-b1f8afc3b2f2/frame-02-at-10.0s.png",
+        "time": 10,
+        "metadata": {
+          "checkId": "03866215-3c91-40fb-8bad-724e5d6967f2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792531410630,
+        "contentHash": "1673861f4180167a252f81242f0320dbefe9c5c9eee2271e0bc7e76bde6caec3",
+        "revision": null,
+        "inputFingerprint": "0601836d98f24297cbb580692cb6640613fbc552ea7a9788d3f5320b9a5fbb9a",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "03866215-3c91-40fb-8bad-724e5d6967f2-3",
+        "scope": "full",
+        "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/47940fb2-d489-44c9-a64b-b1f8afc3b2f2/frame-03-at-14.4s.png",
+        "time": 14.444,
+        "metadata": {
+          "checkId": "03866215-3c91-40fb-8bad-724e5d6967f2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792531410630,
+        "contentHash": "26f258776161c9e412035a0f96f5681ce39d739c23eac443b3ca93bb2b4185d4",
+        "revision": null,
+        "inputFingerprint": "0601836d98f24297cbb580692cb6640613fbc552ea7a9788d3f5320b9a5fbb9a",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "03866215-3c91-40fb-8bad-724e5d6967f2-4",
+        "scope": "full",
+        "image": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/snapshots/47940fb2-d489-44c9-a64b-b1f8afc3b2f2/frame-04-at-18.9s.png",
+        "time": 18.889,
+        "metadata": {
+          "checkId": "03866215-3c91-40fb-8bad-724e5d6967f2",
+          "width": 1920,
+          "height": 1080
+        },
+        "createdAt": 1792531410630,
+        "contentHash": "ae5599e7980a89259b2185def201f1b48c3a8e18909151ae608125aefa579b5b",
+        "revision": null,
+        "inputFingerprint": "0601836d98f24297cbb580692cb6640613fbc552ea7a9788d3f5320b9a5fbb9a",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  }
+}

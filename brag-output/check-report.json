@@ -1,0 +1,170 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 2,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 3.5,
+        "selector": "#hook",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 130,
+          "top": 401.38,
+          "right": 829.36,
+          "bottom": 692,
+          "width": 699.36,
+          "height": 290.62
+        },
+        "containerSelector": "#s2 > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "text": "Cada pedido cuenta.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 130,
+          "y": 401.38,
+          "width": 699.36,
+          "height": 290.62
+        },
+        "firstSeen": 3.5,
+        "lastSeen": 3.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          3.5
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 9,
+        "selector": "#coffee > div:nth-of-type(2) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1401,
+          "top": 667,
+          "right": 1471.89,
+          "bottom": 691,
+          "width": 70.89,
+          "height": 24
+        },
+        "containerSelector": "div.methods > div:nth-of-type(1) > div:nth-of-type(1)",
+        "text": "$2.500",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1401,
+          "y": 667,
+          "width": 70.89,
+          "height": 24
+        },
+        "firstSeen": 9,
+        "lastSeen": 9,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          9
+        ]
+      }
+    ],
+    "duration": 20,
+    "samples": [
+      1.111,
+      3.333,
+      5.556,
+      7.778,
+      10,
+      12.222,
+      14.444,
+      16.667,
+      18.889
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "checked": 81,
+    "passed": 81
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-00-at-1.1s.png",
+      ".hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-01-at-5.6s.png",
+      ".hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-02-at-10.0s.png",
+      ".hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-03-at-14.4s.png",
+      ".hyperframes/artifacts/snapshots/b7da1331-2637-4dd2-82f8-cec97e61a163/frame-04-at-18.9s.png"
+    ],
+    "times": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "dad618ac-ab44-41db-87aa-12e50c77043c",
+    "revision": "7423de93-d241-4745-80f9-8d21bb70130f",
+    "report": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/.hyperframes/artifacts/checks/dad618ac-ab44-41db-87aa-12e50c77043c.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.181",
+    "latestVersion": "0.8.181",
+    "updateAvailable": false
+  }
+}

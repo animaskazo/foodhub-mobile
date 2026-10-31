@@ -1,0 +1,791 @@
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_SUPABASE_URL
+Starting project at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile
+Starting Metro Bundler
+
+Waiting on http://localhost:8082
+
+Logs for your project will appear below.
+iOS Bundled 4285ms index.js (772 modules)
+ WARN  SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context
+ LOG  VirtualizedList: You have a large list that is slow to update - make sure your renderItem function renders components that follow React performance best practices like PureComponent, shouldComponentUpdate, etc. {"contentLength": 6931.33349609375, "dt": 1583.4913330078125, "prevDt": 2023.6310420036316}
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/App.js: Unexpected token, expected "}" (84:11)
+
+  82 |
+  83 | const styles = StyleSheet.create({
+> 84 |   container: { flex: 1, backgroundColor: '#f5f5f5' },
+     |            ^
+  85 |   center: { flex: 1, alignItems: 'center', justifyContent: 'center' },
+  86 |   body: { flex: 1 },
+  87 |   tabbar: {
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.unexpected (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6642:16)
+    at FlowParserMixin.expect (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6922:12)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4655:10)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12455:16)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.parseReturnStatement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:13176:28)
+    at FlowParserMixin.parseStatementContent (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12832:21)
+    at FlowParserMixin.parseStatementLike (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12801:17)
+    at FlowParserMixin.parseStatementLike (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:2934:24)
+    at FlowParserMixin.parseStatementListItem (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12781:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:13350:61)
+    at FlowParserMixin.parseBlockBody (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:13343:10)
+    at FlowParserMixin.parseBlock (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:13331:10)
+    at FlowParserMixin.parseFunctionBody (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12134:24)
+    at FlowParserMixin.parseFunctionBody (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:2911:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12120:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:2919:18)
+iOS Bundled 173ms index.js (1 module)
+ ERROR  [Invariant Violation: Changing numColumns on the fly is not supported. Change the key prop on FlatList when changing the number of columns to force a fresh render of the component.]
+iOS Bundled 392ms index.js (1 module)
+iOS Bundled 3436ms index.js (1 module)
+ ERROR  [ReferenceError: Property 'ChevronDown' doesn't exist]
+ ERROR  [ReferenceError: Property 'expanded' doesn't exist]
+ ERROR  [ReferenceError: Property 'Modal' doesn't exist]
+iOS Bundled 127ms index.js (1 module)
+iOS Bundled 105ms index.js (1 module)
+iOS Bundled 148ms index.js (1 module)
+iOS Bundled 89ms index.js (1 module)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (164:6)
+
+  162 |           </View>
+  163 |         )}
+> 164 |       </View>
+      |       ^
+  165 |     </Modal>
+  166 |   );
+  167 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/screens/CartSheet.js: Expected corresponding JSX closing tag for <>. (165:6)
+
+  163 |           </View>
+  164 |         )}
+> 165 |       </View>
+      |       ^
+  166 |     </Modal>
+  167 |   );
+  168 | }
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4738:14)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:77
+    at FlowParserMixin.forwardNoArrowParamsConversionAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3086:16)
+    at FlowParserMixin.parseConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3034:27)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10911:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4716:32)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+iOS Bundled 106ms index.js (1 module)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/components/OrderDetail.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (203:4)
+
+  201 |         </View>
+  202 |       </View>
+> 203 |     </View>
+      |     ^
+  204 |   );
+  205 | }
+  206 |
+    at constructor (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:369:19)
+    at FlowParserMixin.raise (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6622:19)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4760:18)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+    at FlowParserMixin.tryParse (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:6930:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:18)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10826:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12527:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11706:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3609:18)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11362:23)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4782:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOpBaseRightExpr (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11012:34)
+    at FlowParserMixin.parseExprOpRightExpr (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11007:21)
+    at FlowParserMixin.parseExprOp (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10973:27)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10934:17)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3567:18)
+    at FlowParserMixin.parseExpressionBase (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10810:23)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:39
+    at FlowParserMixin.allowInAnd (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:12460:12)
+    at FlowParserMixin.parseExpression (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10806:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4650:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4729:36)
+    at FlowParserMixin.jsxParseElement (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4767:17)
+    at FlowParserMixin.parseExprAtom (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:4777:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11107:23)
+    at FlowParserMixin.parseUpdate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11092:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:11072:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10925:61)
+    at FlowParserMixin.parseExprOps (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10930:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10907:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:10857:21)
+    at /Users/fer/.gemini/antigravity-ide/scratch/foodhub-mobile/node_modules/@babel/parser/lib/index.js:3516:39
+iOS Bundled 158ms index.js (1 module)

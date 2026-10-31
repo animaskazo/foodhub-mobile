@@ -1,0 +1,274 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "overlapping_gsap_tweens",
+        "severity": "warning",
+        "message": "GSAP tweens overlap on \"#s1 .device\" for rotationY, y between 1.20s and 1.50s.",
+        "selector": "#s1 .device",
+        "dataAttributes": {},
+        "sourceFile": "/Users/fer/Documents/foodhub-mobile/brag-output/composition/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"outro-hit\" is 0.65s but its slot (data-duration) is 1.00s — the slot is shortened to the media length when rendered. Set data-duration to ~0.65s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "foodhub",
+          "data-start": "0",
+          "data-duration": "20",
+          "data-width": "1920",
+          "data-height": "1080"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "time": 0
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 2,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 3.5,
+        "selector": "#hook",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 130,
+          "top": 401.38,
+          "right": 829.36,
+          "bottom": 692,
+          "width": 699.36,
+          "height": 290.62
+        },
+        "containerSelector": "#s2 > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "text": "Cada pedido cuenta.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 130,
+          "y": 401.38,
+          "width": 699.36,
+          "height": 290.62
+        },
+        "firstSeen": 3.5,
+        "lastSeen": 3.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          3.5
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 9,
+        "selector": "#coffee > div:nth-of-type(2) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1401,
+          "top": 667,
+          "right": 1471.89,
+          "bottom": 691,
+          "width": 70.89,
+          "height": 24
+        },
+        "containerSelector": "div.methods > div:nth-of-type(1) > div:nth-of-type(1)",
+        "text": "$2.500",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1401,
+          "y": 667,
+          "width": 70.89,
+          "height": 24
+        },
+        "firstSeen": 9,
+        "lastSeen": 9,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          9
+        ]
+      }
+    ],
+    "duration": 20,
+    "samples": [
+      1.111,
+      3.333,
+      5.556,
+      7.778,
+      10,
+      12.222,
+      14.444,
+      16.667,
+      18.889
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 1.83:1; WCAG AA requires 4.5:1.",
+        "text": "Vendido hoy",
+        "fg": "rgb(96,96,104)",
+        "bg": "rgb(139,139,142)",
+        "ratio": 1.83,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(36,36,39)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 165,
+          "y": 523.1273803710938,
+          "width": 580,
+          "height": 30.796875
+        },
+        "time": 14.444,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 1.83:1; WCAG AA requires 4.5:1.",
+        "text": "Pedidos",
+        "fg": "rgb(96,96,104)",
+        "bg": "rgb(139,139,142)",
+        "ratio": 1.83,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(36,36,39)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > span",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 165,
+          "y": 721.9242553710938,
+          "width": 73.671875,
+          "height": 24
+        },
+        "time": 14.444,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 1.83:1; WCAG AA requires 4.5:1.",
+        "text": "Ticket promedio",
+        "fg": "rgb(96,96,104)",
+        "bg": "rgb(139,139,142)",
+        "ratio": 1.83,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(36,36,39)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > span",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 597.546875,
+          "y": 721.9242553710938,
+          "width": 147.453125,
+          "height": 24
+        },
+        "time": 14.444,
+        "times": [
+          14.444
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "checked": 81,
+    "passed": 78
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-00-at-1.1s.png",
+      ".hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-01-at-5.6s.png",
+      ".hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-02-at-10.0s.png",
+      ".hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-03-at-14.4s.png",
+      ".hyperframes/artifacts/snapshots/7ef20710-cd73-4346-83da-427fbf2d6659/frame-04-at-18.9s.png"
+    ],
+    "times": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "findingFiles": []
+  }
+}
