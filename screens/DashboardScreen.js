@@ -9,11 +9,14 @@ import {
   RefreshControl,
   ActivityIndicator,
   TouchableOpacity,
+  Alert,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ReceiptText, RotateCw } from 'lucide-react-native';
 import { supabase } from '../lib/supabase';
+import { unregisterPush } from '../lib/push';
+import PushPilotControl from '../components/PushPilot';
 import { TAB_BAR_CLEARANCE } from '../components/TabBar';
 import {
   getMyStore,
@@ -98,6 +101,8 @@ export default function DashboardScreen({ onLogout, onSell, storeName, storeLogo
   }
 
   const handleLogout = async () => {
+    try { await unregisterPush(); }
+    catch (err) { Alert.alert('No se pudo cerrar sesión', err.message); return; }
     clearStoreCache();
     await supabase.auth.signOut();
     onLogout();
@@ -107,6 +112,7 @@ export default function DashboardScreen({ onLogout, onSell, storeName, storeLogo
 
   return (
     <>
+      <PushPilotControl />
       {active && <StatusBar style={coverVisible ? "light" : "dark"} />}
       <Animated.ScrollView
         style={styles.container}

@@ -25,6 +25,8 @@ import {
 } from '../lib/store';
 import { findCachedProductImage } from '../lib/pos';
 import { groupOrdersByMonth } from '../lib/orderGroups';
+import { router } from 'expo-router';
+import { supabase } from '../lib/supabase';
 
 function detailDate(iso) {
   const d = new Date(iso);
@@ -45,7 +47,7 @@ function detailDate(iso) {
 }
 
 // Pedidos agrupados por mes, con el monto vendido en cada grupo.
-export default function SalesScreen({ active }) {
+export default function SalesScreen({ active, pushOrderId }) {
   // Pinta caché al instante; el spinner solo aparece en la primera carga.
   const [orders, setOrders] = useState(() => {
     const s = peekMyStore();
@@ -61,6 +63,19 @@ export default function SalesScreen({ active }) {
   const [selected, setSelected] = useState(null);
   const [error, setError] = useState('');
   const mounted = React.useRef(false);
+
+  React.useEffect(() => {
+    if (!active || typeof pushOrderId !== 'string') return;
+    let alive = true;
+    setSelected(null);
+    supabase.rpc('push_order_detail', { p_order_id: pushOrderId }).then(({ data, error: detailError }) => {
+      if (!alive) return;
+      if (detailError || !data) setError('No se pudo abrir el pedido o ya no tienes acceso.');
+      else { setError(''); setSelected(data); }
+      router.setParams({ orderId: undefined });
+    });
+    return () => { alive = false; };
+  }, [active, pushOrderId]);
 
   const load = useCallback(async (force = false) => {
     setError('');

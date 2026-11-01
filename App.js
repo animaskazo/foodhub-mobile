@@ -14,7 +14,7 @@ import SellScreen from './screens/SellScreen';
 import { LoginSkeleton } from './components/Skeleton';
 
 export default function App() {
-  const { section } = useLocalSearchParams();
+  const { section, orderId } = useLocalSearchParams();
   const pathname = usePathname();
   const focused = pathname === '/';
   const [session, setSession] = useState(null);
@@ -81,7 +81,7 @@ export default function App() {
           />
         </View>
         <View style={[styles.tabPage, tab === 'sales' && styles.tabPageActive]}>
-          <SalesScreen active={focused && tab === 'sales'} />
+          <SalesScreen active={focused && tab === 'sales'} pushOrderId={orderId} />
         </View>
         <View style={[styles.tabPage, tab === 'sell' && styles.tabPageActive]}>
           <SellScreen

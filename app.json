@@ -23,7 +23,8 @@
     "plugins": [
       "expo-video",
       "expo-router",
-      "expo-web-browser"
+      "expo-web-browser",
+      "expo-notifications"
     ],
     "scheme": "foodhub-mobile"
   }

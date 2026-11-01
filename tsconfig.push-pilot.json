@@ -1,0 +1,5 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": { "allowJs": true, "checkJs": true, "strict": false, "noEmit": true },
+  "include": ["lib/push.js", "lib/pushPayload.mjs", "components/PushPilot.js", "app.config.js"]
+}
