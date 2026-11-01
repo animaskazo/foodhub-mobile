@@ -23,8 +23,12 @@ pedido esté entre los últimos 150. No cambia las alertas existentes del POS.
 
 Copiar `.env.example`; usar URL y clave pública del proyecto Supabase de prueba
 confirmado, `EXPO_PUBLIC_PUSH_PILOT=true` y el UUID REAL del proyecto EAS en
-`EXPO_PUBLIC_EAS_PROJECT_ID`. El repo aún no contiene un proyecto EAS ni bundle
-identifier oficial: obtenerlos de la cuenta que firma la aplicación, no inventarlos.
+`EXPO_PUBLIC_EAS_PROJECT_ID`. Se creó y vinculó, con autorización del usuario,
+`@framirezgarrido/foodhub-mobile`, UUID `afefd4cf-6ffd-4295-b89a-81c9dbd43ca6`.
+Está en `app.json`; la variable permite sobrescribirlo deliberadamente para otro
+entorno. No se iniciaron builds, no se conectó GitHub desde Expo y no se crearon
+credenciales. Aún falta el bundle identifier oficial: obtenerlo de la cuenta que
+firma la aplicación, no inventarlo.
 Se pueden suministrar `FOODHUB_IOS_BUNDLE_IDENTIFIER` y `FOODHUB_ANDROID_PACKAGE`
 al resolver `app.config.js`. El mismo EAS UUID debe figurar en la inscripción
 del negocio en el backend. No incluir claves APNs, access token Expo ni secretos

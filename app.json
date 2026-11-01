@@ -2,6 +2,10 @@
   "expo": {
     "name": "foodhub-mobile",
     "slug": "foodhub-mobile",
+    "owner": "framirezgarrido",
+    "extra": {
+      "eas": { "projectId": "afefd4cf-6ffd-4295-b89a-81c9dbd43ca6" }
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
