@@ -1,5 +1,5 @@
 import Image from '../components/SkeletonImage';
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 import {
   View,
   Text,
@@ -32,8 +32,9 @@ import BusinessProfile from '../components/BusinessProfile';
 import StoreCover, { COVER_HEIGHT } from '../components/StoreCover';
 import DateRangeFilter from '../components/DateRangeFilter';
 import DeliveryTimeButton from '../components/DeliveryTimeButton';
-import { presetRange, rangeBounds, summarizePeriod } from '../lib/dateRange';
+import { presetRange, rangeBounds, shiftDate, summarizePeriod } from '../lib/dateRange';
 import { Bone, SkeletonSlot, DashboardSalesPlaceholder, OrderRowPlaceholder } from '../components/Skeleton';
+import { DashboardMetricCards, SalesByChannelCard, SalesSparkline, SalesTrendCard, summarizeChannels, summarizeDailySales } from '../components/DashboardAnalytics';
 
 export default function DashboardScreen({ onLogout, onSell, storeName, storeLogo, active }) {
   const insets = useSafeAreaInsets();
@@ -43,6 +44,7 @@ export default function DashboardScreen({ onLogout, onSell, storeName, storeLogo
   const [visits, setVisits] = useState(0);
   const [yesterday, setYesterday] = useState(0);
   const [recent, setRecent] = useState([]);
+  const [periodOrders, setPeriodOrders] = useState([]);
   const [totalOrders, setTotalOrders] = useState(0);
   const [loading, setLoading] = useState(true);
   const [periodLoading, setPeriodLoading] = useState(false);
@@ -65,8 +67,14 @@ export default function DashboardScreen({ onLogout, onSell, storeName, storeLogo
       if (id !== request.current) return;
       setCoverUrl(org.cover_url || null);
       setPrepTime(org.prep_time ?? 0);
+      const selectedBounds = rangeBounds(selectedPeriod);
+      const trendStart = new Date(`${shiftDate(selectedPeriod.end, -6)}T00:00:00`).toISOString();
+      const orderBounds = {
+        ...selectedBounds,
+        previousStart: selectedBounds.previousStart < trendStart ? selectedBounds.previousStart : trendStart,
+      };
       const [data, visitCount] = await Promise.all([
-        getDashboardPeriod(branchIds, rangeBounds(selectedPeriod), { forceRefresh: force }),
+        getDashboardPeriod(branchIds, orderBounds, { forceRefresh: force }),
         getStoreVisits(org.id, selectedPeriod, { forceRefresh: force }),
       ]);
       if (id !== request.current) return;
@@ -75,6 +83,7 @@ export default function DashboardScreen({ onLogout, onSell, storeName, storeLogo
       setVisits(visitCount);
       setYesterday(d.previous);
       setRecent(data.recent);
+      setPeriodOrders(data.orders);
       setTotalOrders(d.totalOrders);
     } catch (err) {
       if (id === request.current) setError(err.message || 'No se pudo cargar el resumen.');
@@ -104,6 +113,19 @@ export default function DashboardScreen({ onLogout, onSell, storeName, storeLogo
   };
 
   const contentLoading = loading || periodLoading || refreshing;
+  const analytics = useMemo(() => {
+    const selectedPeriod = period.days ? presetRange(period.days) : period;
+    const bounds = rangeBounds(selectedPeriod);
+    const currentOrders = periodOrders.filter(order => {
+      const createdAt = Date.parse(order.created_at);
+      return createdAt >= Date.parse(bounds.start) && createdAt < Date.parse(bounds.end);
+    });
+    const trendKeys = Array.from({ length: 7 }, (_, index) => shiftDate(selectedPeriod.end, index - 6));
+    return {
+      channels: summarizeChannels(currentOrders),
+      days: summarizeDailySales(periodOrders, trendKeys),
+    };
+  }, [period, periodOrders]);
 
   return (
     <>
@@ -174,9 +196,13 @@ export default function DashboardScreen({ onLogout, onSell, storeName, storeLogo
 
       <SkeletonSlot loading={contentLoading} placeholder={<DashboardSalesPlaceholder />}>
       <View style={styles.hero}>
-        <View style={styles.heroMain}>
-        <Text style={styles.heroLabel}>{period.days === 1 ? 'Vendido hoy' : 'Ventas del período'}</Text>
-        <Text style={styles.heroValue} numberOfLines={1} adjustsFontSizeToFit>{fmtMoney(summary.revenue)}</Text>
+        <View style={styles.heroTop}>
+          <View style={styles.heroMain}>
+            <Text style={styles.heroLabel}>{period.days === 1 ? 'Vendido hoy' : 'Ventas del período'}</Text>
+            <Text style={styles.heroValue} numberOfLines={1} adjustsFontSizeToFit>{fmtMoney(summary.revenue)}</Text>
+          </View>
+          <View style={styles.sparkline}><SalesSparkline days={analytics.days} /></View>
+        </View>
         <Text style={styles.heroDelta} numberOfLines={1}>
           {yesterday > 0
             ? `${summary.revenue >= yesterday ? '+' : ''}${Math.round(
@@ -184,21 +210,25 @@ export default function DashboardScreen({ onLogout, onSell, storeName, storeLogo
               )}% vs ${period.days === 1 ? 'ayer' : 'período anterior'} (${fmtMoney(yesterday)})`
             : 'Sin ventas en el período anterior'}
         </Text>
-        </View>
-        <View style={styles.heroStats}>
-          <View style={styles.heroStat}>
-            <Text style={styles.heroStatValue}>{visits.toLocaleString('es-CL')}</Text>
-            <Text style={styles.heroStatLabel}>Visitas</Text>
-          </View>
-          <View style={styles.heroSep} />
-          <View style={styles.heroStat}>
-            <Text style={styles.heroStatValue}>{fmtMoney(summary.ticket)}</Text>
-            <Text style={styles.heroStatLabel}>Ticket promedio</Text>
-          </View>
+        <View style={styles.visitsLine}>
+          <Text style={styles.visitsValue}>{visits.toLocaleString('es-CL')}</Text>
+          <Text style={styles.visitsLabel}>visitas en el período</Text>
         </View>
       </View>
 
       </SkeletonSlot>
+      <SkeletonSlot loading={contentLoading} placeholder={
+        <View style={styles.metricsPlaceholder}>
+          <Bone width="48%" height={82} radius={18} />
+          <Bone width="48%" height={82} radius={18} />
+        </View>
+      }>
+        <DashboardMetricCards totalOrders={totalOrders} ticket={summary.ticket} />
+      </SkeletonSlot>
+      {!contentLoading && <>
+        <SalesByChannelCard channels={analytics.channels} />
+        <SalesTrendCard days={analytics.days} />
+      </>}
       <View style={styles.filterRow}>
         <Text style={styles.section} numberOfLines={1}>
           {contentLoading ? 'Pedidos' : `${totalOrders} ${totalOrders === 1 ? 'Pedido' : 'Pedidos'}`}
@@ -362,14 +392,15 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   heroMain: { flex: 1, minWidth: 0 },
+  heroTop: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  sparkline: { width: 82, alignItems: 'flex-end', justifyContent: 'center' },
   heroValue: { lineHeight: 42, color: '#000', fontSize: 34, fontWeight: '800', letterSpacing: -1 },
   heroLabel: { lineHeight: 18, color: '#8E8E93', fontSize: 13, fontWeight: '600', marginTop: 2 },
   heroDelta: { minHeight: 16, lineHeight: 16, color: '#6E6E73', fontSize: 11, fontWeight: '600', marginTop: 3 },
-  heroStats: { flexDirection: 'row', marginTop: 12, paddingTop: 12, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: '#E5E5EA', alignItems: 'center' },
-  heroStat: { flex: 1, alignItems: 'flex-start', rowGap: 2 },
-  heroStatValue: { lineHeight: 20, color: '#000', fontSize: 16, fontWeight: '700' },
-  heroStatLabel: { lineHeight: 20, color: '#8E8E93', fontSize: 11 },
-  heroSep: { width: 1, height: 36, backgroundColor: '#E5E5EA', marginHorizontal: 12 },
+  visitsLine: { flexDirection: 'row', alignItems: 'center', gap: 5, marginTop: 8 },
+  visitsValue: { lineHeight: 16, color: '#1C1C1E', fontSize: 12, fontWeight: '700' },
+  visitsLabel: { lineHeight: 16, color: '#8E8E93', fontSize: 11 },
+  metricsPlaceholder: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: 14 },
   section: { flex: 1, fontSize: 20, fontWeight: '800', color: '#000', marginLeft: 4 },
   empty: { padding: 16, paddingLeft: 0, color: '#8E8E93', fontSize: 14 },
   emptyWrap: {
